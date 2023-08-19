@@ -1,0 +1,62 @@
+{
+  "Students": [],
+  "groups": [
+    {
+      "id": "l16ZRyn2aU4fH632qflXAtKnoyycGS20",
+      "title": "Frontend",
+      "description": "На курсе вы научитесь создавать интерфейсы веб-сервисов с помощью языков программирования и дополнительных технологий. Сможете разрабатывать планировщики задач, мессенджеры, интернет-магазины.",
+      "time": 12,
+      "students": [],
+      "price": 2000,
+      "teacher": {
+        "id": "wHOd0CCi6T0b5mqX2rhEJdvh7lkFWyFi",
+        "name": "Arsen",
+        "lastname": "Hajranov",
+        "email": "arsen__hajranov@gmail.com",
+        "telegramId": "arsen__hajranov",
+        "phone": 79966912730,
+        "gender": "Men",
+        "rank": "Teamlead",
+        "isDesible": false
+      }
+    }
+  ],
+  "payments": [],
+  "teachers": [
+    {
+      "id": "wHOd0CCi6T0b5mqX2rhEJdvh7lkFWyFi",
+      "name": "Arsen",
+      "lastname": "Hajranov",
+      "email": "arsen__hajranov@gmail.com",
+      "telegramId": "arsen__hajranov",
+      "phone": 79966912730,
+      "gender": "Men",
+      "rank": "Teamlead",
+      "isDesible": false
+    }
+  ],
+  "lessons": [
+    {
+      "id": "od4B9h04uEWzBaLmPt9bVJpQ9pV4S6d8",
+      "title": "Frontend - с нуля до middle #1",
+      "description": "Frontend - с нуля до middle #1.",
+      "date": "2023-09-06T19:00:00.000Z",
+      "teacher": {
+        "id": "wHOd0CCi6T0b5mqX2rhEJdvh7lkFWyFi",
+        "name": "Arsen",
+        "lastname": "Hajranov",
+        "email": "arsen__hajranov@gmail.com",
+        "telegramId": "arsen__hajranov",
+        "phone": 79966912730,
+        "gender": "Men",
+        "rank": "Teamlead",
+        "isDesible": false
+      },
+      "idGroup": "l16ZRyn2aU4fH632qflXAtKnoyycGS20",
+      "link": "link/lesson/1",
+      "numberLesson": 1,
+      "isStart": false,
+      "rank": "Newbie"
+    }
+  ]
+}

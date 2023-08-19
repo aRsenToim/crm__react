@@ -25,7 +25,4 @@ Open [http://localhost:5000](http://localhost:5000) with your browser to see the
 
 ## Description
 
-Streaming service of movies and TV series.
-The original page of the movie / series with an unusual animation with the choice of rating and adding to favorites. 
-Fully customized player.
-Film search and filtering.
+CRM service for the learning platform. Pupils, Teachers, Lessons, Groups.

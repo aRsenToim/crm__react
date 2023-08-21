@@ -2,7 +2,6 @@ import { IconButton, Table, TableBody, TableCell, TableContainer, TableHead, Tab
 import DisabledByDefaultIcon from '@mui/icons-material/DisabledByDefault';
 import { useAppDispatch, useAppSelector } from "../store/hooks"
 import { ITeacherGroup } from "../types/teacherType";
-import { deleteGroupFetch } from "../store/actions/groupsActions";
 import { setDataPopup, setPopup } from "../store/slices/appSlice";
 import { disableTeacherFetch } from "../store/actions/teachersActions";
 
@@ -43,7 +42,7 @@ const Teachers = () => {
        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
        key={teacher.id}
       >
-       <TableCell component="th" scope="row">
+       <TableCell key={teacher.id} component="th" scope="row">
         {teacher.id}
        </TableCell>
        <TableCell align="right">{teacher.name} {teacher.lastname}</TableCell>

@@ -101,7 +101,7 @@ const CreateLessons = () => {
      label="gender"
      onChange={(event: SelectChangeEvent) => { setTeacher(event.target.value) }}
     >
-     {teachers?.map((teacher: ITeacherGroup) => <MenuItem value={JSON.stringify(teacher)} key={teacher.id}>{teacher.name} {teacher.lastname}</MenuItem>)}
+     {teachers?.map((teacher: ITeacherGroup) => teacher.isDesible ? undefined : <MenuItem value={JSON.stringify(teacher)} key={teacher.id}>{teacher.name} {teacher.lastname}</MenuItem>)}
     </Select>
    </FormControl>
    <LocalizationProvider dateAdapter={AdapterDayjs}>

@@ -4,6 +4,7 @@ import appSlice from './slices/appSlice'
 import groupsSlice from './slices/groupsSlice'
 import teacherSlice from './slices/teacherSlice'
 import lessonsSlice from './slices/lessonsSlice'
+import paymontsSlice from './slices/paymontsSlice'
 
 
 
@@ -14,8 +15,10 @@ const store = configureStore({
   groupsSlice,
   teacherSlice,
   lessonsSlice,
+  paymontsSlice,
  }
 })
+
 
 
 export default store

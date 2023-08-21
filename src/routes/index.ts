@@ -8,6 +8,7 @@ import CreateTeacher from "../pages/createTeacher"
 import Teachers from "../pages/teachers"
 import Lessons from "../pages/lessons"
 import CreateLessons from "../pages/createLessons"
+import Paymonts from "../pages/paymonts"
 
 export interface IRoute {
  path: string
@@ -25,6 +26,7 @@ enum RouteNames{
  CREATETEACHER =  '/createTeacher',
  CREATELESSONS = '/createLessons',
  TEACHER = '/teacher',
+ PAYMONTS = '/paymonts'
 }
 
 
@@ -53,7 +55,12 @@ export const routes: IRoute[] = [
   path: RouteNames.LESSONS,
   component: Lessons,
   name: "Lessons"
- }
+ },
+ {
+  path: RouteNames.PAYMONTS,
+  component: Paymonts,
+  name: "Paymonts"
+ },
 ]
 
 

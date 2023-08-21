@@ -7,21 +7,28 @@ import { AlertWindow } from "../components/alert";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { getGroupsFetch } from "../store/actions/groupsActions";
 import { getTeachersFetch } from "../store/actions/teachersActions";
+import WindowPaymont from "../components/windowPaymont";
+import { getStudentsFetch } from "../store/actions/studentsActions";
 
 const Layout: FC = () => {
  const groups = useAppSelector(state => state.groupsSlice.groups)
  const teachers = useAppSelector(state => state.teacherSlice.teachers)
  const dispatch = useAppDispatch()
-
+ const students = useAppSelector(state => state.studentsSlice.students)
 
  useEffect(() => {
   if (groups === null) dispatch(getGroupsFetch())
   if (!teachers) {
    dispatch(getTeachersFetch())
   }
+   if (!students) {
+    dispatch(getStudentsFetch())
+   }
+
  })
  return <div>
   <Popup />
+  <WindowPaymont/>
   <AppBar position="static">
    <Container maxWidth="xl">
     <Toolbar disableGutters>

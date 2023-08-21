@@ -16,13 +16,15 @@ interface IinitialState {
  dataPopup: IDataPopup | null
  alert: IAlert | null
  alertIsOpen: boolean
+ window: boolean
 }
 
 const initialState: IinitialState = {
  popup: false,
  dataPopup: null,
  alert: null,
- alertIsOpen: false
+ alertIsOpen: false,
+ window: false
 }
 
 const appSlice = createSlice({
@@ -40,9 +42,12 @@ const appSlice = createSlice({
   },
   setAlertIsOpen(state, action: PayloadAction<boolean>){
    state.alertIsOpen = action.payload
+  },
+  setWindow(state, action: PayloadAction<boolean>){
+   state.window = action.payload
   }
  }
 })
 
 export default appSlice.reducer
-export const {setPopup, setDataPopup, setAlert, setAlertIsOpen} = appSlice.actions
+export const {setPopup, setDataPopup, setAlert, setAlertIsOpen, setWindow} = appSlice.actions

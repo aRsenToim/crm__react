@@ -5,3 +5,11 @@ export interface IRow {
  price: number,
  teacher: string
 }
+
+export interface IPaymontRow {
+ id: string,
+ sum: number,
+ idAccount: string,
+ email: string,
+ telegramID: string
+}

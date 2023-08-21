@@ -37,71 +37,7 @@
       "rank": "Newbie"
     }
   ],
-  "groups": [
-    {
-      "id": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
-      "title": "Frontend",
-      "description": "Frontend developer с нуля до middle+ за 12 месяцев!",
-      "time": 12,
-      "students": [
-        "JcJaeHPB71gZva4FfTTXV4FnTI33a9LY"
-      ],
-      "price": 1200,
-      "teacher": {
-        "id": "aaNQZ0XotJwwYllUNeKIEOuUOER3j5zk",
-        "name": "Arsen",
-        "lastname": "Hajranov",
-        "email": "arsen__hajranov@gmail.com",
-        "telegramId": "@arsen__hajranov",
-        "phone": 79966912730,
-        "gender": "Men",
-        "rank": "Senior",
-        "isDesible": false
-      }
-    },
-    {
-      "id": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-      "title": "Backend",
-      "description": "Стань Backend developer с нуля до middle+ за 12 месяцев!",
-      "time": 12,
-      "students": [
-        "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q"
-      ],
-      "price": 1200,
-      "teacher": {
-        "id": "aaNQZ0XotJwwYllUNeKIEOuUOER3j5zk",
-        "name": "Arsen",
-        "lastname": "Hajranov",
-        "email": "arsen__hajranov@gmail.com",
-        "telegramId": "@arsen__hajranov",
-        "phone": 79966912730,
-        "gender": "Men",
-        "rank": "Senior",
-        "isDesible": false
-      }
-    },
-    {
-      "id": "dv3guWCF1652ZVWw9EszjR0b40I7XUxc",
-      "title": "Fullstack",
-      "description": "Стань Fullstack developer с нуля до middle+ за 20 месяцев!",
-      "time": 20,
-      "students": [
-        "cJzTd6gE8hHvzCNyRqFygJ4M7lS2dk1a"
-      ],
-      "price": 3000,
-      "teacher": {
-        "id": "aaNQZ0XotJwwYllUNeKIEOuUOER3j5zk",
-        "name": "Arsen",
-        "lastname": "Hajranov",
-        "email": "arsen__hajranov@gmail.com",
-        "telegramId": "@arsen__hajranov",
-        "phone": 79966912730,
-        "gender": "Men",
-        "rank": "Senior",
-        "isDesible": false
-      }
-    }
-  ],
+  "groups": [],
   "paymonts": [
     {
       "idPaymont": "XDRTWmXygPPhEXx7ZD4akmS1QRAb4MPj",
@@ -437,7 +373,7 @@
       "idGroup": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
       "link": "link/:jdjjsdfj",
       "numberLesson": 1,
-      "isStart": false,
+      "isStart": true,
       "rank": "Newbie"
     }
   ]

@@ -15,7 +15,7 @@ const columns: GridColDef[] = [
  { field: 'teacher', headerName: 'teacher', width: 200 },
 ];
 const Groups: FC = () => {
- const [isRow, setIsRow] = useState<string | null>(null)
+ const [isRow, setIsRow] = useState<string[]>([])
  const [rows, setRows] = useState<IRow[] | null>(null)
  const groups = useAppSelector(state => state.groupsSlice.groups)
  const dispatch = useAppDispatch()
@@ -24,9 +24,9 @@ const Groups: FC = () => {
 
  const handleEvent: GridEventListener<'cellClick'> = (params) => {
   if (!params.value) {
-   setIsRow(params.row.id)
+   setIsRow([...isRow, params.row.id])
   } else {
-   setIsRow(null)
+   setIsRow([])
   }
  };
 
@@ -38,12 +38,13 @@ const Groups: FC = () => {
     description: "If deleted, the group will not be reinstated",
     btn: "delete user",
     callback: () => {
-     dispatch(deleteGroupFetch(isRow))
+     isRow.forEach((row: string) => {
+      dispatch(deleteGroupFetch(row))
+     })
     }
    }))
   }
  }
-
  useEffect(() => {
   if (groups === null) dispatch(getGroupsFetch())
   if (groups) {
@@ -86,9 +87,9 @@ const Groups: FC = () => {
    pageSizeOptions={[5, 10]}
    checkboxSelection
   />
-  {isRow ? <Button onClick={deleteGroupHandle} variant="contained">Delete Group</Button> : <Button variant="contained" disabled>
+  {JSON.stringify(isRow) == '[]' ? <Button variant="contained" disabled>
    Delete Group
-  </Button>}
+  </Button> : <Button onClick={deleteGroupHandle} variant="contained">Delete Group</Button>}
  </div>
 }
 

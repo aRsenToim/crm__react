@@ -1,4 +1,4 @@
-import {Dispatch} from '@reduxjs/toolkit'
+import { Dispatch } from '@reduxjs/toolkit'
 import { paymontsApi } from '../../api/servies/paymontsApi'
 import { IPaymont, IResponseAddPaymont, IResponseGetPaymont } from '../../types/paymontsType'
 import { setPaymonts, setTotalSum } from '../slices/paymontsSlice'

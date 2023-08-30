@@ -1,17 +1,19 @@
 import { IconButton, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material'
 import { FC, useEffect, useState } from 'react'
 import DeleteIcon from '@mui/icons-material/Delete';
+import Info from '@mui/icons-material/Info';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { deleteStudentFetch, getStudentsFetch } from '../store/actions/studentsActions';
 import { IStudent } from '../types/usersTypes';
 import { setDataPopup, setPopup } from '../store/slices/appSlice';
 import { deleteStudentGroupFetch } from '../store/actions/groupsActions';
+import { NavLink } from 'react-router-dom';
 
 const Students: FC = () => {
  const dispatch = useAppDispatch()
  const students = useAppSelector(state => state.studentsSlice.students)
  const [isFetch, setIsFetch] = useState<boolean>(false)
- 
+
  const deleteStudentHandle = (student: IStudent) => {
   dispatch(setPopup(true))
   dispatch(setDataPopup({
@@ -41,6 +43,7 @@ const Students: FC = () => {
       <TableCell align="right">Phone</TableCell>
       <TableCell align="right">TelegramId</TableCell>
       <TableCell align="right">Delete</TableCell>
+      <TableCell align="right">Info</TableCell>
      </TableRow>
     </TableHead>
     <TableBody>
@@ -55,7 +58,10 @@ const Students: FC = () => {
       <TableCell align="right">{student.phone}</TableCell>
       <TableCell align="right">{student.telegramId}</TableCell>
       <TableCell align="right">
-       <IconButton onClick={() => {deleteStudentHandle(student)}}><DeleteIcon /></IconButton>
+       <IconButton onClick={() => { deleteStudentHandle(student) }}><DeleteIcon /></IconButton>
+      </TableCell>
+      <TableCell align="right">
+       <NavLink to={`/student/${student.id}`}><IconButton><Info /></IconButton></NavLink>
       </TableCell>
      </TableRow>)}
     </TableBody>

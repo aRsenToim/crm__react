@@ -1,3 +1,4 @@
+import { IPaymont } from "./paymontsType"
 
 
 export interface IDataStudents {
@@ -13,7 +14,9 @@ export interface IStudent {
  lastname: string
  email: string
  telegramId: string
+ img: string
  phone: string
+ paymonts: IPaymont[]
  gender: string
  nameGroup: string
  rank: string
@@ -26,5 +29,11 @@ export interface IResponseCreateStudents {
 }
 export interface IResponseGetStudents {
  data: IStudent[]
+}
+export interface IResponseGetStudent {
+ data: IStudent
+}
+export interface IResponseAddPaymontStudent {
+ data: {}
 }
 //API

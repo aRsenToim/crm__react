@@ -1,7 +1,7 @@
 import { FC, useEffect } from "react"
 import { AppBar, Avatar, Box, Button, Container, FormControl, IconButton, InputLabel, Menu, MenuItem, Select, Toolbar, Tooltip, Typography } from '@mui/material'
 import { NavLink, Outlet } from 'react-router-dom'
-import { routes } from '../routes';
+import { IRoute, routes } from '../routes';
 import Popup from "../components/popup";
 import { AlertWindow } from "../components/alert";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
@@ -50,11 +50,11 @@ const Layout: FC = () => {
       REACT ADMIN PANEL
      </Typography>
      <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-      {routes.map(el => <NavLink key={el.path} className='navlink' to={el.path}><Button
+      {routes.map((el: IRoute) => <div key={el.path}>{el.isVisible ? <NavLink className='navlink' to={el.path}><Button
        sx={{ my: 2, color: 'white', display: 'block' }}
       >
        {el.name}
-      </Button></NavLink>)}
+      </Button></NavLink> : undefined}</div>)}
      </Box>
     </Toolbar>
    </Container>

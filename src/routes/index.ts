@@ -9,57 +9,81 @@ import Teachers from "../pages/teachers"
 import Lessons from "../pages/lessons"
 import CreateLessons from "../pages/createLessons"
 import Paymonts from "../pages/paymonts"
+import Landing from "../components/landing/landing"
+import StudentPage from "../pages/student"
 
 export interface IRoute {
  path: string
  component: React.ComponentType
  name: string
+ isVisible: boolean
 }
 
 enum RouteNames{
+ LANDING = 'landing',
  HOME =  '/',
- STUDENTS = '/students',
- GROUPS  = '/groups',
- LESSONS = '/lessons',
- CREATESTUDENT = '/createstudent',
- CREATEGROUP = '/creategroup',
- CREATETEACHER =  '/createTeacher',
- CREATELESSONS = '/createLessons',
- TEACHER = '/teacher',
- PAYMONTS = '/paymonts'
+ STUDENTS = 'students',
+ GROUPS  = 'groups',
+ LESSONS = 'lessons',
+ CREATESTUDENT = 'createstudent',
+ CREATEGROUP = 'creategroup',
+ CREATETEACHER =  'createTeacher',
+ CREATELESSONS = 'createLessons',
+ TEACHER = 'teacher',
+ PAYMONTS = 'paymonts',
+ STUDENT = 'student/:id'
 }
 
-
+export const UnivalnyeRoute: IRoute[] = [
+ {
+  path: RouteNames.LANDING,
+  component: Landing,
+  name: 'landing',
+  isVisible: false
+ },
+]
 export const routes: IRoute[] = [
  {
   path: RouteNames.HOME,
   component: HomePage,
-  name: 'Home'
+  name: 'Home',
+  isVisible: true
+ },
+ {
+  path: RouteNames.STUDENT,
+  component: StudentPage,
+  name: 'Student',
+  isVisible: false
  },
  {
   path: RouteNames.GROUPS,
   component: Groups,
-  name: 'Groups'
+  name: 'Groups',
+  isVisible: true
  },
  {
   path: RouteNames.STUDENTS,
   component: Students,
-  name: 'Studnets'
+  name: 'Studnets',
+  isVisible: true
  },
  {
   path: RouteNames.TEACHER,
   component: Teachers,
-  name: "Teachers"
+  name: "Teachers",
+  isVisible: true
  },
  {
   path: RouteNames.LESSONS,
   component: Lessons,
-  name: "Lessons"
+  name: "Lessons",
+  isVisible: true
  },
  {
   path: RouteNames.PAYMONTS,
   component: Paymonts,
-  name: "Paymonts"
+  name: "Paymonts",
+  isVisible: true
  },
 ]
 
@@ -68,21 +92,25 @@ export const otherRoutes: IRoute[] = [
  {
   path: RouteNames.CREATEGROUP,
   component: CreateGroup,
-  name: "Create Group"
+  name: "Create Group",
+  isVisible: true
  },
  {
   path: RouteNames.CREATESTUDENT,
   component: CreateStudent,
-  name: "Create Student"
+  name: "Create Student",
+  isVisible: true
  },
  {
   path: RouteNames.CREATETEACHER,
   component: CreateTeacher,
-  name: "Create teacher"
+  name: "Create teacher",
+  isVisible: true
  },
  {
   path: RouteNames.CREATELESSONS,
   component: CreateLessons,
-  name: "Create Lesson"
+  name: "Create Lesson",
+  isVisible: true
  }
 ]

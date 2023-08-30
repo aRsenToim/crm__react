@@ -18,6 +18,7 @@ const CreateStudent = () => {
  const [email, setEmail] = useState<string>('')
  const [telegramId, setTelegramId] = useState<string>('')
  const [phone, setPhone] = useState<string>('')
+ const [image, setImage] = useState<string>('')
  const [nameGroup, setNameGroup] = useState<string>('')
  const [isGroup, setIsGroup] = useState<IGroup | null>(null)
  const [isRedirect, setIsRedirect] = useState<boolean>(false)
@@ -37,10 +38,12 @@ const CreateStudent = () => {
    id: idStudent,
    name,
    lastname,
+   img: image,
    email,
    telegramId,
    phone,
    gender,
+   paymonts: [],
    nameGroup,
    idGroup: isGroup?.id ?? '',
    rank,
@@ -50,9 +53,9 @@ const CreateStudent = () => {
  }
 
  if (isRedirect) {
-  return <Navigate to='/students'/>
+  return <Navigate to='/students' />
  }
- 
+
  return <>
   <Box
    sx={{
@@ -97,8 +100,8 @@ const CreateStudent = () => {
      id="demo-simple-select"
      value={nameGroup}
      label="Name group"
-     onChange={(event: SelectChangeEvent) => { 
-      setNameGroup(event.target.value) 
+     onChange={(event: SelectChangeEvent) => {
+      setNameGroup(event.target.value)
      }}
     >
      {groups?.map((group: IGroup) => <MenuItem key={group.id} onClick={() => {
@@ -140,6 +143,9 @@ const CreateStudent = () => {
      }
     </Select>
    </FormControl>
+   <TextField value={image} onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+    setImage(e.currentTarget.value)
+   }} id="outlined-basic" label="URL Image" variant="outlined" />
   </Box>
   <Box component="form"
    sx={{

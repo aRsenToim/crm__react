@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap');
+
+*{
+ font-family: 'Inter', sans-serif;
+}
+
+
+.Landing{
+ max-width: 1250px;
+ margin: 0px auto;
+ &__burgerButton{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+ }
+ &__header__conteiner{
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ &__logo{
+  width: 80px;
+  object-fit: cover;
+ }
+ &__navbar{
+  display: flex;
+  align-items: center;
+  li{
+   list-style: none;
+   margin-right: 20px;
+   cursor: pointer;
+  }
+ }
+ &__banner{
+  text-align: center;
+  margin: 0px auto;
+  button{
+   margin: 10px auto;
+  }
+ }
+ &__title{
+  color: #279EFF;
+  font-size: 44px;
+  margin: 10px 0px;
+ }
+ &__description{
+  color: #777777;
+  font-size: 18px;
+  margin: 10px 0px;
+ }
+ &__button{
+  background-color: #279EFF;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  display: block;
+
+ }
+}
+
+
+@media (max-width: 1300px) {
+ .Landing{
+  max-width: 1050px;
+ }
+}
+@media (max-width: 1000px) {
+ .Landing{
+  max-width: 850px;
+ }
+}
+@media (max-width: 900px) {
+ .Landing{
+  max-width: 650px;
+ }
+}
+@media (max-width: 800px) {
+ .Landing{
+  max-width: 650px;
+ }
+}
+@media (max-width: 700px) {
+ .Landing{
+  max-width: 550px;
+  &__burgerButton{
+   display: block;
+  }
+  &__navbar{
+   display: none;
+  }
+  &__navbarBurger{
+   li{
+    padding: 5px 0px;
+   }
+  }
+  &__banner{
+   img{
+    width: 500px;
+    object-fit: cover;
+   }
+  }
+ }
+}

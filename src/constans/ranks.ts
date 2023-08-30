@@ -16,7 +16,7 @@ export enum RanksStudentsEnum {
  Newbie = "Newbie",
  Intern = "Intern",
  Junior = 'Junior',
- JuniorAdd = 'Junior',
+ JuniorAdd = 'Junior+',
  Middle = "Middle"
 }
 

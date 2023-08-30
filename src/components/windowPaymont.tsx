@@ -6,6 +6,7 @@ import { IStudent } from "../types/usersTypes";
 import { addPaymontFetch } from "../store/actions/paymontsActions";
 import { generatorId } from "../helpers/generatorID";
 import { setTotalSum } from "../store/slices/paymontsSlice";
+import { addPaymontStudentFetch } from "../store/actions/studentsActions";
 
 const style = {
  position: 'absolute',
@@ -27,6 +28,7 @@ const WindowPaymont: FC = () => {
  const [isStudent, setIsStudent] = useState<string>("")
 
  const handleAddPaymont = () => {
+  //Error
   if (!sum || !isStudent) {
    dispatch(setAlertIsOpen(true))
    dispatch(setAlert({
@@ -35,11 +37,18 @@ const WindowPaymont: FC = () => {
    }))
    return;
   }
+  //success
+  const student: IStudent = JSON.parse(isStudent)
   dispatch(addPaymontFetch({
    idPaymont: generatorId(),
    sum,
-   account: JSON.parse(isStudent)
+   account: student
   }))
+  dispatch(addPaymontStudentFetch(student.id, [...student.paymonts, {
+   idPaymont: generatorId(),
+   sum,
+   account: student
+  }]))
   dispatch(setTotalSum())
  }
 

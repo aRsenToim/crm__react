@@ -1,380 +1,95 @@
 {
   "Students": [
     {
-      "id": "JcJaeHPB71gZva4FfTTXV4FnTI33a9LY",
-      "name": "John",
-      "lastname": "dee ",
-      "email": "John__dee@gmail.com",
-      "telegramId": "@John_dee",
-      "phone": "7558349321",
+      "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
+      "name": "Oleg",
+      "lastname": "Obyhov",
+      "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
+      "email": "olegObyhov@gmail.com",
+      "telegramId": "@olegka123",
+      "phone": "7886953024",
       "gender": "Men",
+      "paymonts": [
+        {
+          "idPaymont": "kApTaocJOrfmaDVt8u4HdGSXcADGaXdL",
+          "sum": 1200,
+          "account": {
+            "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
+            "name": "Oleg",
+            "lastname": "Obyhov",
+            "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
+            "email": "olegObyhov@gmail.com",
+            "telegramId": "@olegka123",
+            "phone": "7886953024",
+            "gender": "Men",
+            "paymonts": [],
+            "nameGroup": "Frontend",
+            "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+            "rank": "Newbie"
+          }
+        }
+      ],
       "nameGroup": "Frontend",
-      "idGroup": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
-      "rank": "Intern"
-    },
-    {
-      "id": "cJzTd6gE8hHvzCNyRqFygJ4M7lS2dk1a",
-      "name": "Ivan",
-      "lastname": "Zolo",
-      "email": "IvanZolo2004@gmail.com",
-      "telegramId": "@ivan_zolo",
-      "phone": "7996954032",
-      "gender": "Men",
-      "nameGroup": "Fullstack",
-      "idGroup": "dv3guWCF1652ZVWw9EszjR0b40I7XUxc",
-      "rank": "Newbie"
-    },
-    {
-      "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-      "name": "Egor",
-      "lastname": "Letov",
-      "email": "egorLetov@gmail.com",
-      "telegramId": "@Egor__letov",
-      "phone": "89965932912",
-      "gender": "Men",
-      "nameGroup": "Backend",
-      "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
+      "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
       "rank": "Newbie"
     }
   ],
-  "groups": [],
+  "groups": [
+    {
+      "id": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+      "title": "Frontend",
+      "description": "test",
+      "time": 12,
+      "students": [
+        "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf"
+      ],
+      "price": 1233,
+      "teacher": {
+        "id": "37emBhRetFGz7q3zqQUcOLfygpg1yYgy",
+        "name": "test",
+        "lastname": "test",
+        "email": "test",
+        "telegramId": "test",
+        "phone": null,
+        "gender": "Men",
+        "rank": "Software Engineer",
+        "isDesible": false
+      }
+    }
+  ],
   "paymonts": [
     {
-      "idPaymont": "XDRTWmXygPPhEXx7ZD4akmS1QRAb4MPj",
+      "idPaymont": "QCvypkxBfBB0cZz5utaYnwnM5r1YExP7",
       "sum": 1200,
       "account": {
-        "id": "JcJaeHPB71gZva4FfTTXV4FnTI33a9LY",
-        "name": "John",
-        "lastname": "dee ",
-        "email": "John__dee@gmail.com",
-        "telegramId": "@John_dee",
-        "phone": "7558349321",
+        "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
+        "name": "Oleg",
+        "lastname": "Obyhov",
+        "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
+        "email": "olegObyhov@gmail.com",
+        "telegramId": "@olegka123",
+        "phone": "7886953024",
         "gender": "Men",
+        "paymonts": [],
         "nameGroup": "Frontend",
-        "idGroup": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
-        "rank": "Intern"
+        "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+        "rank": "Newbie"
       },
       "id": 1
-    },
-    {
-      "idPaymont": "qDIbBs8X0Dja0u3Kw845ao9PGAKNoTCG",
-      "sum": 1200,
-      "account": {
-        "id": "JcJaeHPB71gZva4FfTTXV4FnTI33a9LY",
-        "name": "John",
-        "lastname": "dee ",
-        "email": "John__dee@gmail.com",
-        "telegramId": "@John_dee",
-        "phone": "7558349321",
-        "gender": "Men",
-        "nameGroup": "Frontend",
-        "idGroup": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
-        "rank": "Intern"
-      },
-      "id": 2
-    },
-    {
-      "idPaymont": "goRpUpWOMF51PJlhxJagIH6bRri34uRU",
-      "sum": 1200,
-      "account": {
-        "id": "cJzTd6gE8hHvzCNyRqFygJ4M7lS2dk1a",
-        "name": "Ivan",
-        "lastname": "Zolo",
-        "email": "IvanZolo2004@gmail.com",
-        "telegramId": "@ivan_zolo",
-        "phone": "7996954032",
-        "gender": "Men",
-        "nameGroup": "Fullstack",
-        "idGroup": "dv3guWCF1652ZVWw9EszjR0b40I7XUxc",
-        "rank": "Newbie"
-      },
-      "id": 3
-    },
-    {
-      "idPaymont": "ZZWroJDBu0dfBM5SXzbiJ3fc0etdxRPt",
-      "sum": 3999,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 4
-    },
-    {
-      "idPaymont": "JbFYu6F33XrPKcK4ymuOZv4w0IzRuvfK",
-      "sum": 1,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 5
-    },
-    {
-      "idPaymont": "hRaif5w0KDb0iWOxLmQNVIaTedlWgdcr",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 6
-    },
-    {
-      "idPaymont": "FB0tmyEaTPlfcs2MqhnbMJfhOzQLKKPq",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 7
-    },
-    {
-      "idPaymont": "Xv5oamFPe4OBpGg7RScZNtt6YVwSYuni",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 8
-    },
-    {
-      "idPaymont": "4IDV9eS92ahyFqOK430ZfziEOqqNmVaW",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 9
-    },
-    {
-      "idPaymont": "HYr1Rh0c5OzNRA64nyFIxKVxF7qHRBLB",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 10
-    },
-    {
-      "idPaymont": "tEYm5sj2NZNTnKf13g3bpmtSFZVIlIag",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 11
-    },
-    {
-      "idPaymont": "5RombjmeTb3QLzRSqS9Iwf0evia9JcV7",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 12
-    },
-    {
-      "idPaymont": "MHYfnCfE2Kwsab3YEl67amKrTy5Gnk92",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 13
-    },
-    {
-      "idPaymont": "gTWh9IygtMw3atsnZS6r3KVvL8osdloB",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 14
-    },
-    {
-      "idPaymont": "QJdpc07eahcdJroPoF57gs77PkvCVOwY",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 15
-    },
-    {
-      "idPaymont": "a2wUxaIBXxBpgUvus9amXYoqIb0WKRst",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 16
-    },
-    {
-      "idPaymont": "W4ZMtGm9nfkJb4tBxijgnu92zaIM0dxD",
-      "sum": 12,
-      "account": {
-        "id": "bHof4lc8rNbGEDsgAnPNaXA94ldKcd1Q",
-        "name": "Egor",
-        "lastname": "Letov",
-        "email": "egorLetov@gmail.com",
-        "telegramId": "@Egor__letov",
-        "phone": "89965932912",
-        "gender": "Men",
-        "nameGroup": "Backend",
-        "idGroup": "8rjCF9sOaTSrPj7iWdlgX3gWEjK3Kwdp",
-        "rank": "Newbie"
-      },
-      "id": 17
     }
   ],
   "teachers": [
     {
-      "id": "aaNQZ0XotJwwYllUNeKIEOuUOER3j5zk",
-      "name": "Arsen",
-      "lastname": "Hajranov",
-      "email": "arsen__hajranov@gmail.com",
-      "telegramId": "@arsen__hajranov",
-      "phone": 79966912730,
+      "id": "37emBhRetFGz7q3zqQUcOLfygpg1yYgy",
+      "name": "test",
+      "lastname": "test",
+      "email": "test",
+      "telegramId": "test",
+      "phone": null,
       "gender": "Men",
-      "rank": "Senior",
+      "rank": "Software Engineer",
       "isDesible": false
-    },
-    {
-      "id": "uvR5lOqyX2DJfjLhCuk20ZpHN4R7on2J",
-      "name": "Arsen",
-      "lastname": "Hajranov",
-      "email": "arsen__hajranov@gmail.com",
-      "telegramId": "@arsen__hajranov",
-      "phone": 79966943020,
-      "gender": "Men",
-      "rank": "Senior",
-      "isDesible": true
     }
   ],
-  "lessons": [
-    {
-      "id": "thBqbivahLI52m8LtCGi2Yaz7vBgu4h3",
-      "title": "Frontend #1",
-      "description": "Frontend с нуля первый урок",
-      "date": "2023-08-23T19:00:00.000Z",
-      "teacher": {
-        "id": "aaNQZ0XotJwwYllUNeKIEOuUOER3j5zk",
-        "name": "Arsen",
-        "lastname": "Hajranov",
-        "email": "arsen__hajranov@gmail.com",
-        "telegramId": "@arsen__hajranov",
-        "phone": 79966912730,
-        "gender": "Men",
-        "rank": "Senior",
-        "isDesible": false
-      },
-      "idGroup": "FgP5i1itS40A7ynPJK4byPCSAnJu0N1a",
-      "link": "link/:jdjjsdfj",
-      "numberLesson": 1,
-      "isStart": true,
-      "rank": "Newbie"
-    }
-  ]
+  "lessons": []
 }

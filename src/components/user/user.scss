@@ -1,0 +1,36 @@
+.User{
+ margin-top: 20px;
+ &__id{
+  margin-bottom: 10px;
+  font-style: 21px;
+ }
+ &__header{
+  display: flex;
+  align-items: flex-start;
+ }
+ &__image{
+  width: 270px;
+  object-fit: cover;
+ }
+ &__info{
+  margin-left: 20px;
+ }
+ &__title{
+  span{
+   color: #878787;
+  }
+ }
+ &__nav{
+
+ }
+ &__block{
+  list-style: none;
+  margin: 5px 0px;
+  span{
+   color: #878787;
+  }
+  h3{
+
+  }
+ }
+}

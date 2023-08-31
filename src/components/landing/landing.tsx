@@ -15,7 +15,7 @@ const Landing: FC = () => {
      <li>Блог</li>
      <li>О нас</li>
      <li>
-      <NavLink className='navlink' to={'/'}><button className={s.Landing__button}>Попробовать бесплатно</button></NavLink>
+      <NavLink className={s.Landing__link} to={'/'}><button className={s.Landing__button}>Попробовать бесплатно</button></NavLink>
      </li>
     </ul>
     <button className={s.Landing__burgerButton} onClick={() => { setIsBurger(!isBurger) }}><img src='/img/menu.png'/></button>
@@ -28,14 +28,14 @@ const Landing: FC = () => {
     <li>Блог</li>
     <li>О нас</li>
     <li>
-     <NavLink className='navlink' to={'/'}><button className={s.Landing__button}>Попробовать бесплатно</button></NavLink>
+     <NavLink className={s.Landing__link} to={'/'}><button className={s.Landing__button}>Попробовать бесплатно</button></NavLink>
     </li>
    </ul>
   </div>
   <div className={s.Landing__banner}>
    <h1 className={s.Landing__title}>CRM для учебного заведения</h1>
    <p className={s.Landing__description}>Клиенты, расписание, склад, зарплата, уведомления, финансы, онлайн-запись, ip-телефония, мобильное приложение</p>
-   <button className={s.Landing__button}><NavLink className='navlink' to={'/app'}>Попробовать бесплатно на 7 дней</NavLink></button>
+   <button className={s.Landing__button}><NavLink className={s.Landing__link} to={'/'}>Попробовать бесплатно на 7 дней</NavLink></button>
    <img src="/img/macbook.png" alt="" />
   </div>
  </div>

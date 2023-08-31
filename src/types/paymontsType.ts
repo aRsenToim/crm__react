@@ -9,7 +9,7 @@ export interface IPaymont {
 
 export interface IResponseGetPaymont{
  data: IPaymont[]
-}
+} 
 
 export interface IResponseAddPaymont{
  data: {}

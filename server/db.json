@@ -1,56 +1,56 @@
 {
   "Students": [
     {
-      "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
-      "name": "Oleg",
-      "lastname": "Obyhov",
-      "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
-      "email": "olegObyhov@gmail.com",
-      "telegramId": "@olegka123",
-      "phone": "7886953024",
+      "id": "EZZbC32deEuRt6yd6a0kWvGOinsipCuq",
+      "name": "Ivan",
+      "lastname": "Gilev",
+      "img": "https://sun9-38.userapi.com/impg/9_m8N-xklbHj_cLTzq0hEoCE9k1Icr-R4bxFNg/Puw7-oGuXhk.jpg?size=768x768&quality=95&sign=2cfd1d40474352c535ea3e2cfb955e3f&type=album",
+      "email": "ivangilev@gmail.com",
+      "telegramId": "@gilev777",
+      "phone": "79954023912",
       "gender": "Men",
       "paymonts": [
         {
-          "idPaymont": "kApTaocJOrfmaDVt8u4HdGSXcADGaXdL",
-          "sum": 1200,
+          "idPaymont": "ZG5FswbAvdJ1SxqMncmaK5ofFeyVLzp4",
+          "sum": 1000,
           "account": {
-            "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
-            "name": "Oleg",
-            "lastname": "Obyhov",
-            "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
-            "email": "olegObyhov@gmail.com",
-            "telegramId": "@olegka123",
-            "phone": "7886953024",
+            "id": "EZZbC32deEuRt6yd6a0kWvGOinsipCuq",
+            "name": "Ivan",
+            "lastname": "Gilev",
+            "img": "https://sun9-38.userapi.com/impg/9_m8N-xklbHj_cLTzq0hEoCE9k1Icr-R4bxFNg/Puw7-oGuXhk.jpg?size=768x768&quality=95&sign=2cfd1d40474352c535ea3e2cfb955e3f&type=album",
+            "email": "ivangilev@gmail.com",
+            "telegramId": "@gilev777",
+            "phone": "79954023912",
             "gender": "Men",
             "paymonts": [],
             "nameGroup": "Frontend",
-            "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+            "idGroup": "LXqfdjp25OFBqXrF6crz1WtHSd2NoJ71",
             "rank": "Newbie"
           }
         }
       ],
       "nameGroup": "Frontend",
-      "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+      "idGroup": "LXqfdjp25OFBqXrF6crz1WtHSd2NoJ71",
       "rank": "Newbie"
     }
   ],
   "groups": [
     {
-      "id": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+      "id": "LXqfdjp25OFBqXrF6crz1WtHSd2NoJ71",
       "title": "Frontend",
-      "description": "test",
+      "description": "Стань frontend разработчиком с нуля до middle+ за 1000$",
       "time": 12,
       "students": [
-        "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf"
+        "EZZbC32deEuRt6yd6a0kWvGOinsipCuq"
       ],
-      "price": 1233,
+      "price": 1000,
       "teacher": {
-        "id": "37emBhRetFGz7q3zqQUcOLfygpg1yYgy",
-        "name": "test",
-        "lastname": "test",
-        "email": "test",
-        "telegramId": "test",
-        "phone": null,
+        "id": "D4GWO3IslGSd6BzVK7XnCN2ry9zIgila",
+        "name": "Arsen",
+        "lastname": "Hajranov",
+        "email": "arsen.hajranov123@gmail.com",
+        "telegramId": "@arsen__hajranov",
+        "phone": 79966912730,
         "gender": "Men",
         "rank": "Software Engineer",
         "isDesible": false
@@ -59,20 +59,20 @@
   ],
   "paymonts": [
     {
-      "idPaymont": "QCvypkxBfBB0cZz5utaYnwnM5r1YExP7",
-      "sum": 1200,
+      "idPaymont": "A6Ed1RPHmS1zqr7JfZHrgy2RFdsJbLQH",
+      "sum": 1000,
       "account": {
-        "id": "b0Zw6D0cQkSQ6MM9mG63G7isBZ5xjCbf",
-        "name": "Oleg",
-        "lastname": "Obyhov",
-        "img": "https://sun96-2.userapi.com/s/v1/ig2/C_EHTRkybS6j09f_5mVkLktvQMtAk8WtnZae3TtpbgtSRpjx0g7LSMii4bUqremFyx8QsLHrUDw9aVS3wMV20uQn.jpg?size=200x0&quality=96&crop=0,0,988,988&ava=1",
-        "email": "olegObyhov@gmail.com",
-        "telegramId": "@olegka123",
-        "phone": "7886953024",
+        "id": "EZZbC32deEuRt6yd6a0kWvGOinsipCuq",
+        "name": "Ivan",
+        "lastname": "Gilev",
+        "img": "https://sun9-38.userapi.com/impg/9_m8N-xklbHj_cLTzq0hEoCE9k1Icr-R4bxFNg/Puw7-oGuXhk.jpg?size=768x768&quality=95&sign=2cfd1d40474352c535ea3e2cfb955e3f&type=album",
+        "email": "ivangilev@gmail.com",
+        "telegramId": "@gilev777",
+        "phone": "79954023912",
         "gender": "Men",
         "paymonts": [],
         "nameGroup": "Frontend",
-        "idGroup": "tvDQN3M2ttLoGcJVnvdvpTLMLGorogZr",
+        "idGroup": "LXqfdjp25OFBqXrF6crz1WtHSd2NoJ71",
         "rank": "Newbie"
       },
       "id": 1
@@ -80,16 +80,39 @@
   ],
   "teachers": [
     {
-      "id": "37emBhRetFGz7q3zqQUcOLfygpg1yYgy",
-      "name": "test",
-      "lastname": "test",
-      "email": "test",
-      "telegramId": "test",
-      "phone": null,
+      "id": "D4GWO3IslGSd6BzVK7XnCN2ry9zIgila",
+      "name": "Arsen",
+      "lastname": "Hajranov",
+      "email": "arsen.hajranov123@gmail.com",
+      "telegramId": "@arsen__hajranov",
+      "phone": 79966912730,
       "gender": "Men",
       "rank": "Software Engineer",
       "isDesible": false
     }
   ],
-  "lessons": []
+  "lessons": [
+    {
+      "id": "P0WR9l2nmVAIR4iMxfrJVFxwoA5B2exN",
+      "title": "Frontend #1",
+      "description": "Frontend с нуля! Первый урок",
+      "date": "2023-09-01T19:00:00.000Z",
+      "teacher": {
+        "id": "D4GWO3IslGSd6BzVK7XnCN2ry9zIgila",
+        "name": "Arsen",
+        "lastname": "Hajranov",
+        "email": "arsen.hajranov123@gmail.com",
+        "telegramId": "@arsen__hajranov",
+        "phone": 79966912730,
+        "gender": "Men",
+        "rank": "Software Engineer",
+        "isDesible": false
+      },
+      "idGroup": "LXqfdjp25OFBqXrF6crz1WtHSd2NoJ71",
+      "link": "link:2000",
+      "numberLesson": 1,
+      "isStart": true,
+      "rank": "Newbie"
+    }
+  ]
 }
